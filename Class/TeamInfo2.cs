@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace CIS_Esport.Class
 {
-    internal class TeamInfo
+    public class TeamInfo2 // Class Team
     {
+        public string TeamName { get; set; }
+        public  List<PlayInfo> Member { get; set;}
     }
 }

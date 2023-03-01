@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "3rWqo5c3ljPvoMG2DF0SqbMtkHKj4aTHpQXtLfuMAVLoIzdntHBqvJ/OmHs1sdUZ1Oq+7CrqwiJh57PAt4l0CQ==",
+  "dgSpecHash": "6uwVf3QyRqQwny5EZe9gBo12FXRo2rozDn00GRqhNuyum7bdFFBorjyzC7ECgUDTM2g26pC37GCLRypKpfxZTQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Admin\\Desktop\\work\\Lab OOP\\CIS-Esport\\CIS-Esport\\CIS-Esport.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

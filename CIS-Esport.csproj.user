@@ -1,8 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-    <ItemGroup>
-        <Compile Update="Form1.cs">
-            <SubType>Form</SubType>
-        </Compile>
-    </ItemGroup>
+  <ItemGroup>
+    <Compile Update="FindPlayers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Player.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PlayerRejister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Team.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TeamInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
 </Project>
