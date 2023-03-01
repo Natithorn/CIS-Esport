@@ -16,7 +16,7 @@ namespace CIS_Esport
 
     public partial class TeamInfo : Form // Team DATAGrids
     {
-        List<TeamInfo> teams = new List<TeamInfo>();
+        List<TeamInfo2> teams = new List<TeamInfo2>();
         public TeamInfo()
         {
             InitializeComponent();
@@ -39,10 +39,11 @@ namespace CIS_Esport
         private void RefreshDataG()
         {
             dataGridView1.Rows.Clear();
-            foreach (TeamInfo Teams in teams)
+            foreach (TeamInfo2 Teams in teams)
             {
                 dataGridView1.Rows.Add(Teams.TeamName, Teams.Member[0].name,
-                    Teams.Member[1].name, Teams.Member[2].name, Teams.Member[3].name, Teams.Member[4].name);
+                    Teams.Member[1].name, Teams.Member[2].name, Teams.Member[3].name, 
+                    Teams.Member[4].name);
 
 
             }
@@ -69,8 +70,8 @@ namespace CIS_Esport
             openfile.ShowDialog();
             if (openfile.FileName != "")
             {
-                teams = JsonConvert.DeserializeObject<List<TeamInfo>>(File.ReadAllText(openfile.FileName));
-                RefreshDataGrid();
+                teams = JsonConvert.DeserializeObject<List<TeamInfo2>>(File.ReadAllText(openfile.FileName));
+                RefreshDataG();
             }
         }
     }
