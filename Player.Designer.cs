@@ -65,11 +65,12 @@
             this.Mail,
             this.Number,
             this.Age});
-            this.dataGridView1.Location = new System.Drawing.Point(9, 54);
+            this.dataGridView1.Location = new System.Drawing.Point(7, 43);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 33;
-            this.dataGridView1.Size = new System.Drawing.Size(1326, 372);
+            this.dataGridView1.Size = new System.Drawing.Size(1061, 298);
             this.dataGridView1.TabIndex = 0;
             // 
             // Name
@@ -144,7 +145,8 @@
             this.teamToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1335, 33);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1241, 28);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -154,20 +156,20 @@
             this.openToolStripMenuItem,
             this.saveToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(54, 29);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(46, 24);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(158, 34);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(128, 26);
             this.openToolStripMenuItem.Text = "Open";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(158, 34);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(128, 26);
             this.saveToolStripMenuItem.Text = "Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
@@ -176,13 +178,13 @@
             this.playerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.newPlayerToolStripMenuItem});
             this.playerToolStripMenuItem.Name = "playerToolStripMenuItem";
-            this.playerToolStripMenuItem.Size = new System.Drawing.Size(75, 29);
+            this.playerToolStripMenuItem.Size = new System.Drawing.Size(63, 24);
             this.playerToolStripMenuItem.Text = "Player";
             // 
             // newPlayerToolStripMenuItem
             // 
             this.newPlayerToolStripMenuItem.Name = "newPlayerToolStripMenuItem";
-            this.newPlayerToolStripMenuItem.Size = new System.Drawing.Size(201, 34);
+            this.newPlayerToolStripMenuItem.Size = new System.Drawing.Size(166, 26);
             this.newPlayerToolStripMenuItem.Text = "New Player";
             this.newPlayerToolStripMenuItem.Click += new System.EventHandler(this.newPlayerToolStripMenuItem_Click);
             // 
@@ -193,36 +195,38 @@
             this.saveToolStripMenuItem1,
             this.openToolStripMenuItem1});
             this.teamToolStripMenuItem.Name = "teamToolStripMenuItem";
-            this.teamToolStripMenuItem.Size = new System.Drawing.Size(69, 29);
+            this.teamToolStripMenuItem.Size = new System.Drawing.Size(60, 24);
             this.teamToolStripMenuItem.Text = "Team";
             // 
             // manageTeamToolStripMenuItem
             // 
             this.manageTeamToolStripMenuItem.Name = "manageTeamToolStripMenuItem";
-            this.manageTeamToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.manageTeamToolStripMenuItem.Size = new System.Drawing.Size(187, 26);
             this.manageTeamToolStripMenuItem.Text = "Manage Team";
             this.manageTeamToolStripMenuItem.Click += new System.EventHandler(this.manageTeamToolStripMenuItem_Click);
             // 
             // saveToolStripMenuItem1
             // 
             this.saveToolStripMenuItem1.Name = "saveToolStripMenuItem1";
-            this.saveToolStripMenuItem1.Size = new System.Drawing.Size(270, 34);
+            this.saveToolStripMenuItem1.Size = new System.Drawing.Size(187, 26);
             this.saveToolStripMenuItem1.Text = "Save";
             // 
             // openToolStripMenuItem1
             // 
             this.openToolStripMenuItem1.Name = "openToolStripMenuItem1";
-            this.openToolStripMenuItem1.Size = new System.Drawing.Size(270, 34);
+            this.openToolStripMenuItem1.Size = new System.Drawing.Size(187, 26);
             this.openToolStripMenuItem1.Text = "Open";
             // 
             // Player
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1335, 450);
+            this.ClientSize = new System.Drawing.Size(1241, 421);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Name = "Player";
             this.Text = "Player";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
